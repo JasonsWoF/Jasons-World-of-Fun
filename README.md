@@ -9,4 +9,5 @@
 6. Language
 7. Tradition
 8. Happiness
-∞. 
+
+∞.
