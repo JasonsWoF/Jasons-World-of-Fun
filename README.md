@@ -1,5 +1,7 @@
 # World of Fun
 
+## Tasks
+
 0. Freedom
 1. Education
 2. Sanctuaries
@@ -11,4 +13,3 @@
 8. Happiness
 
 ∞.
-
