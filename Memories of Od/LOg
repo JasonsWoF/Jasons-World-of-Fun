@@ -1,0 +1,53 @@
+Tuesday, August 9, 2022
+
+    [3:09 PM]
+        This is my first time just freestyling Python, so I'm gonna see what i can piece together & make. I'm gonna aim to
+        build the window & try to add some graphics like pictures & gifs.
+
+        Python Librariesz
+            1. PyQt5
+            2. Tkinter
+
+
+    [3:25 PM]
+        Reading through blogs & searching through videos in order to find out how to import a library & how to use it.
+
+
+    [3:40 PM]
+        Tkinter will be the Library of choice for now. I will eventually experiment with PyQt5 in order to make this
+        cross platform to IOS & Android.
+
+
+    [4:21 PM]
+        I wrote a hello world program with Tkinter.
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            from tkinter import *
+            from tkinter import ttk
+
+            root = Tk()
+            frm = ttk.Frame(root, padding=100)
+            frm.grid()
+            ttk.Label(frm, text="Memories of Od").grid(column=0, row=0)
+            ttk.Button(frm, text="Die", command=root.destroy).grid(column=1, row=0)
+            root.mainloop()
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    [4:56 PM]
+        root = Tk(): All tkinter programs must start with this
+
+
+    [10:39 PM]
+        Option 2 for creating a window.
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            from tkinter import *
+            root = Tk()
+            myLabel = Label(root, text="Memories of Od")
+            myLabel.pack()
+            root.mainloop()
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Tuesday, August 16, 2022
+
+    []
