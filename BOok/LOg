@@ -21,7 +21,30 @@ Sunday, August 21, 2022
                 13. Cross Platform Functionality
                 14.
 
-Monday, August 22, 2022
+Tuesday, August 23, 2022
 
-    [12: PM]
+    [2:10 PM]
+    Current video - Switch Multiple Pages Frame Using Python | Tkinter: https://www.youtube.com/watch?v=wFyzmZVKPAw
 
+    How to make buttons for switching pages
+    Repeat the first 3 lines of code for the second or multiple buttons.
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            bottom_frame = tk.Frame(root)
+
+            back_btn = tk.Button(bottom_frame), text='', font=((Bold, italic, etc), (#size)), bg='', fg=''
+            back_btn.pack(side=tk.(left, middle, side), padx=)
+
+            bottom_frame.pack(side=tk.BOTTOM, pady=)
+
+            root.mainloop()  # Never forget this
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     How to make pages to switch to with buttons
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+           page_1 = tk.Frame(main_frame)
+           page_1_lb = tk.Label(page_1, text='', font=, )
+           page_1_lb.pack()
+
+
+
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

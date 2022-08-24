@@ -2,11 +2,12 @@ from tkinter import *
 
 root = Tk()
 
-root.title("Jasons World of Fun")
+root.title("Memories of Od")
 
-title = Label(root, text="Jasons World of Fun")
+title = Label(root, text="Memories of Od")
 title.pack()
 
+root.geometry('1050x750')
 
 # Function for pressing "Birth"
 def first_click():
